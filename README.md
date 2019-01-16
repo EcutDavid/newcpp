@@ -1,6 +1,7 @@
 # Goal
-A simple tool to create c++ program with boilerplate code.
-Will add more stuff into the boilerplate for things might be useful for sure.
+A simple tool to create C++ program with boilerplate code.
+
+Will improve the boilerplate from time to time for sure.
 
 # DEMO
 ```
