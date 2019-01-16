@@ -5,5 +5,16 @@ Will improve the boilerplate from time to time for sure.
 
 # DEMO
 ```
-TODO
+$ go get github.com/EcutDavid/newcpp
+$ newcpp a/1.cpp
+a/1.cpp created
+$ cat a/1.cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+#define REP(i, a, b) for (int i = a; i <= b; i++)
+
+int main() {
+}
 ```
