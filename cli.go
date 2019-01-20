@@ -16,13 +16,17 @@ using namespace std;
 typedef double f64;
 typedef long long i64;
 typedef int i32;
+typedef pair<i32, i32> pi32;
 typedef unsigned long long u64;
 typedef unsigned int u32;
+typedef vector<i32> vi32;
+typedef deque<i32> di32;
 
-#define REP(i, a, b) for (int i = a; i < b; i++)
+#define REP(i, a, b) for (i32 i = a; i < b; i++)
 #define PB push_back
+#define PF push_front
 
-int main() {
+i32 main() {
 }
 `
 
