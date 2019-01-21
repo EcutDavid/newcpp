@@ -27,7 +27,7 @@ typedef deque<i32> di32;
 #define PF push_front
 
 i32 main() {
-	ios::sync_with_stdio(false); // Makes io faster, remove this line if C style scanf/printf needed.
+	ios::sync_with_stdio(false); // Makes IO faster, remove this line if C style scanf/printf needed.
 }
 `
 
