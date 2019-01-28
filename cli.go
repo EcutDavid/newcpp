@@ -22,7 +22,8 @@ typedef unsigned int u32;
 typedef vector<i32> vi32;
 typedef deque<i32> di32;
 
-#define REP(i, a, b) for (i32 i = a; i < b; i++)
+#define REP(i, a, b) for (auto i = a; i < b; i++)
+#define REPA(i, a, b, acc) for (auto i = a; i < b; i += acc)
 #define PB push_back
 #define PF push_front
 
