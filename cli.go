@@ -28,10 +28,10 @@ typedef deque<i32> di32;
 #define PB push_back
 #define PF push_front
 #define PRINT(x) cout << #x": " << (x) << endl;
-#define TR(c, it) for (auto (it) = (c).begin(); (it) != (c).end(); (it)++)
+#define TR(c, it) for (auto(it) = (c).begin(); (it) != (c).end(); (it)++)
 
 i32 main() {
-  ios::sync_with_stdio(false); // Makes IO faster, remove this line if C style scanf/printf needed.
+  ios::sync_with_stdio(false);  // Makes IO faster, remove this line if C style scanf/printf needed.
 }
 `
 
@@ -45,6 +45,10 @@ func main() {
 	}
 	if path != "." {
 		os.Mkdir(path, os.ModePerm)
+	}
+
+	if len(os.Args) == 3 && os.Args[2] == "lc" {
+		content = content[:strings.Index(content, "i32 main")]
 	}
 
 	err := ioutil.WriteFile(fileName, []byte(content), os.ModePerm)
