@@ -27,7 +27,7 @@ typedef deque<i32> di32;
 #define REPA(i, a, b, acc) for (auto i = a; i < b; i += acc)
 #define PB push_back
 #define PF push_front
-#define PRINT(x) cout << #x": " << (x) << endl;
+#define PRINT(x) cout << #x ": " << (x) << endl;
 #define TR(c, it) for (auto(it) = (c).begin(); (it) != (c).end(); (it)++)
 
 i32 main() {
