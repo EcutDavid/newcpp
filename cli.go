@@ -29,6 +29,7 @@ typedef deque<i32> di32;
 #define PF push_front
 #define PRINT(x) cout << #x ": " << (x) << endl;
 #define TR(c, it) for (auto(it) = (c).begin(); (it) != (c).end(); (it)++)
+#define MAX_PRECISION cout << setprecision(numeric_limits<double>::max_digits10);
 
 i32 main() {
   ios::sync_with_stdio(false);  // Makes IO faster, remove this line if C style scanf/printf needed.
